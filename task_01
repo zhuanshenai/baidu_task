@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>task01</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>标签练习</h1>
+<a href="www.qq.com"><img src="images/logo.png" title="logo" alt="logo" /></a>
+<form action="search.asp">
+	<input type="text" name="search" />
+	<input type="submit" name="submit" value="搜索" />
+</form>
+<h2>导航</h2>
+<ul>
+	<li><a href="#">新闻</a></li>
+	<li><a href="#">图片</a></li>
+	<li><a href="#">军事</a></li>
+	<li><a href="#">财经</a></li>
+</ul>
+<h3>十八大以来 习近平每年首次考察调研背后有盘棋</h3>
+<img src="images/1.jpg" title="xidada" />
+<p><em>2017年1月24日，</em>中共中央总书记、国家主席、中央军委主席习近平来到河北省张家口市，看望慰问基层干部群众，考察脱贫攻坚工作。<strong>这是习近平在张北县小二</strong>
+台镇德胜村村民徐学海家中看望。<q>我最牵挂的还是困难群众</q>诚哉斯言！</p>
+<a href="http:www.baidu.com/">链接百度</a>
+<ol>
+	<li>这是有序列表</li>
+	<li>这是有序列表</li>
+	<li>这是有序列表</li>
+</ol>
+<blockquote>这是长的引用。块级元素。这是长的引用。块级元素。这是长的引用。块级元素。这是长的引用。块级元素。这是长的引用。块级元素。这是长的引用。块级元素。这是长的引用。块级元素。</blockquote>
+<dl>
+	<dt>这是自定义列表1</dt>
+		<dd>自定义列表1</dd>
+	<dt>这是自定义列表2</dt>
+		<dd>自定义列表2</dd>
+</dl>
+<table border="1">
+	<tr>
+		<td>品名</td>
+		<td>数量</td>
+		<td>价格</td>
+	</tr>
+	<tr>
+		<td>苹果</td>
+		<td>1kg</td>
+		<td>2.35</td>
+	</tr>
+	<tr>
+		<td>香蕉</td>
+		<td>2kg</td>
+		<td>1.25</td>
+	</tr>
+</table>
+<form>
+	<label>
+		<input type="radio" name="sex">male
+	</label>
+	<label>
+		<input type="radio" name="sex">female
+	</label>
+	<label>
+		<input type="checkbox" name="sports">篮球
+	</label>
+	<label>
+		<input type="checkbox" name="sports">足球
+	</label>
+	<label>
+		<input type="checkbox" name="sports">羽毛球
+	</label>
+	<label>
+		<input type="checkbox" name="sports">网球
+	</label>
+	<label>
+		<input type="checkbox" name="sports">乒乓球
+	</label>
+	<br>
+	<textarea>
+		
+	</textarea>
+	<h4>你的交通工具：</h4>
+	<select>
+		<option>汽车</option>
+		<option>自行车</option>
+		<option>公交车</option>
+		<option>步行</option>
+	</select>
+</form>
+</body>
+</html>
