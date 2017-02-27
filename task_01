@@ -6,7 +6,6 @@
 </head>
 <body>
 <h1>标签练习</h1>
-![img](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png) 
 <a href="www.qq.com"><img src="images/logo.png" title="logo" alt="logo" /></a>
 <form action="search.asp">
 	<input type="text" name="search" />
@@ -87,5 +86,7 @@
 		<option>步行</option>
 	</select>
 </form>
+<div>这是div块级元素</div>
+<span>这是span行内元素</span>
 </body>
 </html>
