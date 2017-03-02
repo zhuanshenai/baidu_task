@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task_05</title>
+	<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+		}
+		html {
+			font-size:10px;
+		}
+		.header {
+			width:100%;
+			height:8rem;
+			background:#000;
+		}
+		.header img {
+			margin-left:4rem;
+			margin-top:0.5rem;
+			height:7rem;
+		}
+		.header ul {
+			float:right;
+			line-height:8rem;
+			margin-right:2rem;
+		}
+		.header li {
+			list-style:none;
+			margin-right:2rem;
+			float:left;
+		}
+		.header a {
+			text-decoration:none;
+			color:#fff;
+			font-size:2rem;
+		}
+		.header a:hover {
+			color:yellow;
+		}
+
+		.content {
+			padding:2rem;
+			background:#999;
+			position:relative;
+		}
+		.content > div {
+			background:#fff;
+			width:70%;
+			border-right:2px solid #333;
+			border-bottom:2px solid #333;
+			padding:2rem;
+			margin-top:2rem;
+		}
+		.content div:first-child {
+			margin-top:0;
+		}
+		.content table,.content tr,.content td,.content th {
+			border:1px solid #555;
+			border-collapse:collapse;
+		}
+		.content table {
+			width:100%;
+		}
+		.content th {
+			color:#fff;
+			text-align:left;
+			line-height:3rem;
+			background:#555;
+		}
+		.content td {
+			line-height:2rem;
+		}
+		.content tfoot {
+			background:#888;
+			font-weight:bold;
+		}
+		.content img {
+			width:30rem;
+			height:30rem;
+		}
+		.content .pic div {
+			margin:2rem;
+			border:1px solid #666;
+			padding:1rem;
+			text-align:center;
+			width:10rem;
+			float:left;
+		}
+		.content .pic img {
+			width:10rem;
+			height:10rem;
+			display:block;
+		}
+		.clearfix:before,.clearfix:after {
+			content:"";
+			clear:both;
+			display:block;
+		}
+
+		.content .slidebar {
+			width:20%;
+			position:absolute;
+			right:2rem;
+			top:0;
+		}
+		.content .slidebar input[type=button] {
+			width:100%;
+			height:3rem;
+			color:#fff;
+			background:blue;
+			border-radius:0.5rem;
+			border:none;
+			line-height:3rem;
+		}
+
+		.footer {
+			color:#fff;
+			background:#000;
+			text-align:center;
+			height:8rem;
+			line-height:8rem;
+			width:100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<a href="http://www.baidu.com/"><img src="images/logo.png" /></a>
+		<ul>
+			<li><a href="#">导航链接一</a></li>
+			<li><a href="#">导航链接二</a></li>
+			<li><a href="#">导航链接三</a></li>
+			<li><a href="#">导航链接四</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<div>
+			<h1>文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<h3>文章作者 文章发表时间</h3>
+			<p>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落<br>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，<a href="#">这是一个长段落，</a>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落
+			这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，<strong>这是一个长段落，</strong>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落</p>
+			<img src="images/1.jpg" />
+			<p>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落<br>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，<a href="#" target="_blank">这是一个长段落，</a>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落
+			这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，<strong>这是一个长段落，</strong>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落</p>
+		</div>
+		<div>
+			<h1>另一片文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<h3>文章作者 文章发表时间</h3>
+			<p>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落<br>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，<a href="#">这是一个长段落，</a>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落
+			这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，<strong>这是一个长段落，</strong>这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落，这是一个长段落</p>
+			<img src="images/1.jpg" />
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
+		</div>
+		<div class="pic clearfix">
+			<h1>图片</h1>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+			<div>
+				<p>好看的图片</p>
+				<img src="images/1.jpg" />
+			</div>
+		</div>
+		<div>
+			<h1>最后一篇文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<h3>文章作者 文章发表时间</h3>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>下面是一个表格</p>
+			<table>
+				<thead>
+					<th>表头</th>
+					<th>表头</th>
+					<th>表头</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>总计</td>
+						<td colspan=2>1000</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>	
+		<div class="slidebar">
+			<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+			<form>
+				<span>请输入邮箱地址</span>
+				<input type="text" placeholder="这是一个文本输入框" />
+				<p>邮箱地址请按要求格式输入</p>
+				<span>请输入密码</span>
+				<input type="password" />
+				<br>
+				<span>请重复输入密码</span>
+				<input type="password" />
+				<p>密码请为6-16位英文数组</p>
+				<span>性别</span>
+				<label>
+					<input type="radio" name="sex" checked />男
+				</label>
+				<label>
+					<input type="radio" name="sex" />女
+				</label>
+				<br>
+				<span>城市</span>
+				<select>
+					<option selected>北京</option>
+					<option>上海</option>
+					<option>南京</option>
+					<option>杭州</option>
+				</select>
+				<br>
+				<span>爱好</span>
+				<label>
+					<input type="checkbox" name="favio" />运动
+				</label>
+				<label>	
+					<input type="checkbox" name="favio" />艺术
+				</label>
+				<label>	
+					<input type="checkbox" name="favio" />科学
+				</label>
+				<br>
+				<span>个人描述</span>
+				<textarea>
+					这是一个多行输入框，输入您的个人描述
+				</textarea>
+				<br>
+				<input type="button" value="确认提交" />
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		版权所有@
+	</div>
+</body>
+</html>
