@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task_06</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/task_06.css">
+</head>
+<body>
+<div id="boxer">
+	<div id="header">
+		<span>ife.baidu.com</span>
+		<p>2016.03</p>
+	</div>
+	<div id="content">
+		<div class="content_top">
+			<div class="content_top_left">
+				<img src="images/content_banner.jpg" />
+				<span class="box left"></span>
+				<span class="box right"></span>
+			</div>
+			<div class="content_top_right">
+				<h2>about</h2>
+				<h2>technologe</h2>
+				<p>About technologe about technologe about technologe</p>
+				<h1>700</h1>
+				<div>
+					<h3>3.2</h3>
+					<p>css</p>
+					<span>cssssccsccscssc</span>
+				</div>
+			</div>
+		</div>
+		<div class="content_bottom">
+			<div class="what">
+				<h2>What</h2>
+				<p>端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端</p>
+			</div>
+		</div>
+	</div>
+	<div id="artical">
+		<div class="artical_left">
+			
+		</div>
+		<div class="artical_right">
+			<div class="artical_right_top">
+				
+			</div>
+			<div class="artical_right_bottom">
+				
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		
+	</div>
+</div>
+</body>
+</html>
