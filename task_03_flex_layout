@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>task_03</title>
+	<meta charset="utf-8">
+	<title>task_03_flex_layout</title>
 	<style type="text/css">
 	img {
 		width:80px;
