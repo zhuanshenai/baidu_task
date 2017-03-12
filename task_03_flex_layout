@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task_03</title>
+	<style type="text/css">
+	img {
+		width:80px;
+		height:80px;
+		display:block;/* clear the gap between images */
+	}
+	* {
+		padding:0;
+		margin:0;
+	}
+	div {
+		border:1px solid #000;
+		padding:20px;
+	}
+	.content {
+		display:flex;
+		flex-direction:row;
+		align-items:flex-start;
+	}
+	.middle {
+		margin:0 20px;
+	}
+	.middle p {
+		margin-top:10px;
+	}
+	.left,.right {
+		flex-shrink:0; /* left and right with the browser's shrink rather shrink*/
+		box-sizing:border-box;
+	}
+	.right {
+		width:120px;
+	}
+	.left {
+		width:200px;
+		box-sizing:border-box;
+	}
+	.left p {
+		float:right;
+	}
+	.right img {
+		margin-top:20px;
+	}
+	.right img:first-child {
+		margin-top:0;
+	}
+	</style>
+</head>
+<body>
+<div class="content">
+	<div class="left">
+		<p>团队名称</p>
+		<img src="images/1.jpg" />
+	</div>
+	<div class="middle">
+		<h4>关于团队的介绍。</h4>
+		<p>可以给我们解释一下团队名称的来历，或是分别介绍你们的团队成员。</p>
+		<p>在就任国务院总理后首次全国两会记者会上，李克强总理就说必须从改革行政审批制度入手来转变政府职能。全国各地围绕如何提速审批、便利企业积极展开探索与实践。但是，相比企业注册一天就能搞定这样显著的改革成效，企业投资建设项目的报批周期仍然较长。</p>
+		<p>2015年1月，李克强总理在广东自贸区南沙片区考察时给“万里审批图”打叉，并要求广东为改革探路。3月，中央编办、法制办发出通知，选取天津市所有区县、河北、山西、江苏等8省市开展相对集中行政许可权试点，其余省份各选择2-3个市、县(市、区)或所属国家级开发区开展改革试点。随后，广州开发区被确定为广东省相对集中行政许可权试点改革区之一，并于2016年5月实施改革。</p>
+		<p>在就任国务院总理后首次全国两会记者会上，李克强总理就说必须从改革行政审批制度入手来转变政府职能。全国各地围绕如何提速审批、便利企业积极展开探索与实践。但是，相比企业注册一天就能搞定这样显著的改革成效，企业投资建设项目的报批周期仍然较长。</p>
+	</div>
+	<div class="right">
+		<img src="images/1.jpg" />
+		<img src="images/1.jpg" />
+		<img src="images/1.jpg" />
+		<img src="images/1.jpg" />
+	</div>
+</div>
+</body>
+</html>
