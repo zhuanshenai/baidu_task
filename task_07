@@ -152,10 +152,10 @@
 					<span></span>
 					<br>
 					<input type="button" value="查看更多" />
-					<strong></strong>
 				</div>
 				<div class="world_bottom_img">
 					<img src="images/task_07/content_middle_world_02.jpg" />
+					<strong></strong>
 				</div>
 			</div>
 		</div>

@@ -416,18 +416,18 @@ input {
 	color:#e7504d;
 	border:1px solid #e7504d;
 }
-#content .middle .world .world_bottom .white strong {
+#content .middle .world .world_bottom .world_bottom_img {
+	position:relative;
+}
+#content .middle .world .world_bottom .world_bottom_img strong {
 	display:inline-block;
 	width:26px;
 	height:26px;
-	transform:rotate(45deg);
 	background:#fff;
 	position:absolute;
+	left:-2px;
 	top:247px;
-	right:-14px;
-}
-#content .middle .world .world_bottom .white {
-	position:relative;
+	transform:rotate(-135deg);
 }
 
 #content .volunteer {
