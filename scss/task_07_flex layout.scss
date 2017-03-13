@@ -1,0 +1,210 @@
+@charset "utf-8";
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	font-family:"微软雅黑";
+}
+li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+img {
+	display:block;
+}
+input {
+	border:none;
+	&:focus {
+		outline:none;
+	}
+}
+
+ /* nav start */
+	/* logo start */
+#nav {
+	display:flex;
+	height:57px;
+	align-items:center;
+	justify-content:space-between;	
+	.logo {
+		display:flex;
+		align-items:center;
+		margin-left:54px;
+		flex-shrink:0;
+		h1 {
+			float:right;
+			font:normal 21px "黑体";
+			margin-left:6px;
+		}
+	}
+	/* logo end */
+
+	/* 导航 start */
+	.nav {
+		margin-right:68px;
+		flex-shrink:0;
+		li {
+			float:left;
+		}
+		a {
+			font-size:14px;
+			margin-right:28px;
+			display:flex;
+			height:55px;
+			align-items:center;
+			&:hover {
+				box-sizing:content-box;
+				color:#e74f4d;
+				border-bottom:2px solid #e74f4d;
+			}
+		}
+		.active {
+			color:#e74f4d;
+			border-bottom:2px solid #e74f4d;
+		}
+		.none {
+			color:#e74f4d;
+			margin-right:0;
+			padding-left:16px;
+			background:url('../images/task_07/header_login.png') no-repeat left center;
+			&:hover {
+				border-bottom:none;
+			}
+		}
+	}
+	/* 导航 end */
+}
+/* nav end */
+
+/* banner start */	
+	/* banner_img start */
+#banner {
+	.banner_img {
+		position:relative;
+		color:#fff;
+		height:691px;
+		img {
+			margin:0 auto;
+		}
+		strong {
+			display:inline-flex;
+			width:100%;
+			height:100%;
+			background:rgba(0,0,0,0.2);
+			position:absolute;
+			top:0;
+			left:0;
+		}
+		h1 {
+			font-weight:normal;
+			font-size:60px;
+			position:absolute;
+			top:220px;
+			left:124px;
+			width:500px;
+		}
+		p {
+			font-size:21px;
+			width:300px;
+			position:absolute;
+			top:310px;
+			left:124px;
+			line-height:150%;
+		}
+		input {
+			width:331px;
+			background:#e7504d;
+			font-size:30px;
+			text-align:center;
+			line-height:65px;
+			color:#fff;
+			position:absolute;
+			top:428px;
+			left:124px;
+		}
+	}
+	/* banner_img end */
+
+	/* banner_icon start */
+	.banner_icon {
+		height:250px;
+		display:flex;
+		div {
+			width:25%;
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			box-sizing:border-box;
+			border-right:1px solid #aaa;
+			img {
+				margin-top:45px;
+			}
+			p {
+				font-size:14px;
+				font-family:"黑体";
+				margin-top:50px;
+				height:52px;
+				color:#767777;
+				width:160px;
+				text-align:center;
+				line-height:1.5;
+			}
+		}
+		.none {
+			border-right:none;
+		}
+	}
+	/* banner_icon end */
+}
+/* banner end */
+
+/* new_world start*/
+#new_world {
+	/* about start */
+	.about {
+		height:360px;
+		background:#ededed;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+		h1 {
+			font:normal 54px "黑体";
+			color:rgba(0,0,0,0.5);
+			margin-top:46px;
+		}
+	}
+	/* about end */
+
+	/* map start */
+	.map {
+		position:relative;
+		strong {
+			display:inline-block;
+			background:#aa3533;
+			opacity:0.2;
+			position:absolute;
+			width:100%;
+			height:100%;
+		}
+		img {
+			margin:0 auto;
+		}
+		
+	}
+
+
+
+	/* map end */
+}
+
+
+
+
+
+/* new_world start*/
+

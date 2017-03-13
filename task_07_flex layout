@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task_07_flex layout</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="scss/task_07_flex layout.css">
+</head>
+<body>
+<!-- nav start -->
+<div id="nav">
+	<div class="logo">
+		<img src="images/task_07/header_logo.png" />
+		<h1>新世界</h1>
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="#" class="active">首页</a></li>
+			<li><a href="#">最新活动</a></li>
+			<li><a href="#">项目介绍</a></li>
+			<li><a href="#">爱心社区</a></li>
+			<li><a href="#">关于我们</a></li>
+			<li><a href="#" class="none">登录</a></li>
+		</ul>
+	</div>
+</div>
+<!-- nav end -->
+
+<!-- banner start -->
+<div id="banner">
+	<div class="banner_img">
+		<img src="images/task_07/banner_0.jpg" />
+		<strong></strong>
+		<h1>Time of new life</h1>
+		<p>新时代，年轻的人们让我们一起体验新生活，享受新生活</p>
+		<input type="button" value="开始体验" />
+	</div>
+	<div class="banner_icon">
+		<div>
+			<img src="images/task_07/banner_1.png" />
+			<p>打造全新世界观，让你更爱你的生活</p>
+		</div>
+		<div>
+			<img src="images/task_07/banner_2.png" />
+			<p>丰富多彩的公益活动，发挥新世界的主人公意识</p>
+		</div>
+		<div>
+			<img src="images/task_07/banner_3.png" />
+			<p>时尚的新理念，超前体验未知的生活</p>
+		</div>
+		<div class="none">
+			<img src="images/task_07/banner_4.png" />
+			<p>完善的培养机制，培养你全新的世界观</p>
+		</div>
+	</div>
+</div>
+<!-- banner end -->
+
+
+<div id="new_world">
+	<div class="about">
+		<img src="images/task_07/content_top_top_gray.png" />
+		<h1>关于新世界，你不知道的还有什么？</h1>
+	</div>
+	<div class="map">
+		<strong></strong>
+		<img src="images/task_07/content_top_top_map.jpg" />
+		<h1>查找新世界城市活动信息</h1>
+		<span></span>
+		<p>每个城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
+		<form>
+			<select>
+				<option>美国</option>
+				<option>日本</option>
+				<option>韩国</option>
+				<option selected>中国</option>
+			</select>
+			<select>
+				<option>北京市</option>
+				<option>天津市</option>
+				<option>江苏省</option>
+				<option selected>浙江省</option>
+			</select>
+			<select>
+				<option>杭州市</option>
+				<option>金华市</option>
+				<option>诸暨市</option>
+				<option selected>嘉兴市</option>
+			</select>
+			<input type="button" value="搜索" />
+		</form>
+	</div>
+</div>
+</body>
+</html>
