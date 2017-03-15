@@ -136,14 +136,12 @@ input {
       border-right: none; }
 
 /* banner end */
-/* new_world start */
+/* new_world start*/
 #new_world {
   /* about start */
   /* about end */
   /* map start */
-  /* map end */
-  /* activity start */
-  /* activity end */ }
+  /* map end */ }
   #new_world .about {
     height: 360px;
     background: #ededed;
@@ -166,159 +164,7 @@ input {
       height: 100%; }
     #new_world .map img {
       margin: 0 auto; }
-    #new_world .map .map_top {
-      width: 100%;
-      height: 160px;
-      position: absolute;
-      top: 50px;
-      color: #000;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: #fff;
-      justify-content: space-between; }
-      #new_world .map .map_top h1 {
-        font-weight: normal;
-        font-size: 21px; }
-      #new_world .map .map_top p {
-        font-size: 12px; }
-      #new_world .map .map_top span {
-        display: block;
-        width: 30px;
-        height: 4px;
-        background: #fff; }
-      #new_world .map .map_top form select {
-        width: 236px;
-        height: 36px;
-        float: left;
-        margin-right: 30px; }
-        #new_world .map .map_top form select:focus {
-          outline: 1px solid #be4f48; }
-      #new_world .map .map_top form input {
-        width: 236px;
-        height: 36px;
-        background: #be4e48;
-        color: #fff;
-        letter-spacing: 26px;
-        text-align: center; }
-  #new_world .activity {
-    height: 600px;
-    background: #f8f8f8;
-    padding: 0 145px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    #new_world .activity .box {
-      margin-bottom: 10px; }
-      #new_world .activity .box img {
-        border: 10px solid #fff; }
-      #new_world .activity .box div {
-        border: 1px solid #cecece; }
-      #new_world .activity .box h2 {
-        font-weight: normal;
-        font-size: 14px;
-        font-family: "黑体";
-        text-align: center;
-        margin-top: 12px; }
-      #new_world .activity .box p {
-        color: #898a8a;
-        font-size: 12px;
-        font-family: "黑体";
-        text-align: center;
-        margin-top: 12px; }
-    #new_world .activity .activity_shanghai h2 {
-      margin-top: 0;
-      letter-spacing: 30px;
-      text-align: right;
-      font-size: 20px; }
-    #new_world .activity .activity_shanghai p {
-      margin-bottom: 12px; }
 
-/* new_world end */
-/* content start */
-#content {
-  /* content_top start */
-  /* content_top end */ }
-  #content .content_top {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row; }
-    #content .content_top .content_top_left {
-      position: relative;
-      color: #fff; }
-      #content .content_top .content_top_left div {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        line-height: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; }
-        #content .content_top .content_top_left div h1 {
-          font-weight: normal;
-          font-size: 50px; }
-        #content .content_top .content_top_left div h2 {
-          font-weight: normal;
-          font-size: 158px; }
-        #content .content_top .content_top_left div p {
-          font-size: 22px;
-          line-height: 150%; }
-    #content .content_top .content_top_right {
-      width: 100%;
-      border: 1px solid red;
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      #content .content_top .content_top_right h1 {
-        font-size: 20px;
-        font-weight: normal;
-        margin-top: 165px; }
-        #content .content_top .content_top_right h1 .oblique {
-          font-style: oblique;
-          color: #7f8080; }
-        #content .content_top .content_top_right h1 .red {
-          color: #e74f4d;
-          padding-left: 8px; }
-      #content .content_top .content_top_right p {
-        font-size: 12px;
-        font-family: "宋体";
-        color: #aaa;
-        line-height: 200%;
-        margin-top: 30px;
-        width: 300px;
-        border: 1px slid red; }
-      #content .content_top .content_top_right input {
-        font-size: 12px;
-        color: #e25c60;
-        width: 104px;
-        line-height: 32px;
-        border: 1px solid #e25c60;
-        text-align: center;
-        background: #fff;
-        margin-top: 50px; }
-      #content .content_top .content_top_right ul {
-        width: 104px;
-        display: flex;
-        justify-content: center; }
-        #content .content_top .content_top_right ul li {
-          height: 10px;
-          display: inline-block;
-          width: 10px;
-          border-radius: 50%;
-          box-sizing: border-box;
-          border: 1px solid #929292;
-          margin-top: 24px;
-          margin-right: 14px;
-          float: left; }
-          #content .content_top .content_top_right ul li:hover {
-            background: #929292; }
-        #content .content_top .content_top_right ul .active {
-          background: #929292; }
-        #content .content_top .content_top_right ul .none {
-          margin-right: 0; }
-
-/* content end */
+/* new_world start*/
 
 /*# sourceMappingURL=task_07_flex%20layout.css.map */
