@@ -55,40 +55,109 @@
 </div>
 <!-- banner end -->
 
-
+<!--  new_world start  -->
 <div id="new_world">
+	<!--  about start  -->
 	<div class="about">
 		<img src="images/task_07/content_top_top_gray.png" />
 		<h1>关于新世界，你不知道的还有什么？</h1>
 	</div>
+	<!--  about end  -->
+
+	<!--  map start  -->
 	<div class="map">
 		<strong></strong>
 		<img src="images/task_07/content_top_top_map.jpg" />
-		<h1>查找新世界城市活动信息</h1>
-		<span></span>
-		<p>每个城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
-		<form>
-			<select>
-				<option>美国</option>
-				<option>日本</option>
-				<option>韩国</option>
-				<option selected>中国</option>
-			</select>
-			<select>
-				<option>北京市</option>
-				<option>天津市</option>
-				<option>江苏省</option>
-				<option selected>浙江省</option>
-			</select>
-			<select>
-				<option>杭州市</option>
-				<option>金华市</option>
-				<option>诸暨市</option>
-				<option selected>嘉兴市</option>
-			</select>
-			<input type="button" value="搜索" />
-		</form>
+		<div class="map_top">
+			<h1>查找新世界城市活动信息</h1>
+			<span></span>
+			<p>每个城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
+			<form>
+				<select>
+					<option>美国</option>
+					<option>日本</option>
+					<option>韩国</option>
+					<option selected>中国</option>
+				</select>
+				<select>
+					<option>北京市</option>
+					<option>天津市</option>
+					<option>江苏省</option>
+					<option selected>浙江省</option>
+				</select>
+				<select>
+					<option>杭州市</option>
+					<option>金华市</option>
+					<option>诸暨市</option>
+					<option selected>嘉兴市</option>
+				</select>
+				<input type="button" value="搜索" />
+			</form>
+		</div>
 	</div>
+	<!--  map end  -->
+
+	<!-- activity start -->
+	<div class="activity">
+		<div class="box">
+			<div>
+				<img src="images/task_07/content_middle_activity_beijing.jpg" />
+			</div>
+			<h2>北京活动</h2>
+			<p>新社区大联盟</p>
+		</div>
+		<div class="box activity_shanghai">
+			<h2>上海活动</h2>
+			<p>夜上海新景观探索</p>
+			<div>
+				<img src="images/task_07/content_middle_activity_shanghai.jpg" />
+			</div>
+		</div>
+		<div class="box">
+			<div>
+				<img src="images/task_07/content_middle_activity_shenzhen.jpg" />
+			</div>
+			<h2>深圳活动</h2>
+			<p>全新海岸线观点站</p>
+		</div>
+		<div class="box">
+			<div>
+				<img src="images/task_07/content_middle_activity_xianggang.jpg" />
+			</div>
+			<h2>香港活动</h2>
+			<p>奢侈消费大派送</p>
+		</div>
+	</div>
+	<!-- activity end -->
 </div>
+<!--  new_world end  -->
+
+<!--  content start  -->
+<div id="content">
+	<!--  content_top start  -->
+	<div class="content_top">
+		<div class="content_top_left">
+			<img src="images/task_07/content_middle_world_01.jpg" />
+			<div>
+				<h1>新世界</h1>
+				<h2>TIME</h2>
+				<p>@新世界－北京</p>
+				<p>2016.04.01</p>
+			</div>
+		</div>
+		<div class="content_top_right">
+			<h1>新世界<span class="oblique">/</span><span class="red">01</span></h1>
+			<p>新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界</p>
+			<input type="button" value="更多详情" />
+			<ul>
+				<li class="active"></li>
+				<li></li>
+				<li class="none"></li>
+			</ul>
+		</div>
+	</div>
+	<!--  content_top end  -->
+</div>
+<!--  content end  -->
 </body>
 </html>
