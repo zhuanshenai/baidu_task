@@ -157,7 +157,92 @@
 		</div>
 	</div>
 	<!--  content_top end  -->
+
+	<!--  content_bottom start  -->
+	<div class="content_bottom">
+		<div class="content_bottom_left">
+			<p>新时代</p>
+			<p>关于爱生活的我们</p>
+			<span></span>
+			<input type="button" value="查看更多" />
+		</div>
+		<div class="content_bottom_middle">
+			<p>新时代</p>
+			<p>关于爱生活的我们</p>
+			<span></span>
+			<input type="button" value="查看更多" />
+		</div>
+		<div class="content_bottom_right">
+			<strong></strong>
+			<img src="images/task_07/content_middle_world_02.jpg" />
+		</div>
+	</div>
+	<!--  content_bottom end  -->
 </div>
 <!--  content end  -->
+
+<!--  volunteer start  -->
+<div id="volunteer">
+	<div class="volunteer_top">
+		<h1>成为我们的志愿者</h1>
+		<span></span>
+		<p>新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+	</div>
+	<div class="volunteer_bottom">
+		<div class="left">
+			<div>
+				<h2>新世界志愿者协议</h2>
+				<p>加入新世界志愿者的人员必须遵守中华人民共共和国的相关法律法规，并且本着平等资源的原则 ......</p>
+				<span>more</span>
+			</div>
+			<div>
+				<h2>新世界志愿者权利</h2>
+				<p>新世界志愿者享受新世界内部所有资源共享的权利，并且享受所在四新世界活动的优先参与资格</p>
+				<span>more</span>
+			</div>
+			<div>
+				<h2>更多条款</h2>
+				<span>more</span>
+			</div>
+		</div>
+		<div class="right">
+			<form>
+				<input type="text" value="姓名：" />
+				<input type="text" value="年龄：" />
+				<br>
+				<input class="three" type="text" value="联系方式：" />
+				<input class="four" type="text" value="联系地址：" />
+				<br>
+				<textarea>请简单描述您梦想的生活：
+				</textarea>
+				<br>
+				<input type="button" value="提交申请" />
+			</form>
+		</div>
+	</div>
+</div>
+<!--  volunteer end  -->
+
+<!--  footer start  -->
+<div id="footer">
+	<div class="concat">
+		<h1>联系我们</h1>
+		<p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯也可以通过以下任何方式关注我们动态</p>
+		<form>
+			<input type="text" placeholder="someone@email.com" />
+			<input type="submit" value="提交" />
+		</form>
+		<div>
+			<a href="#"><img src="images/task_07/footer_qq.png" /></a>
+			<a href="#"><img src="images/task_07/footer_weibo.png" /></a>
+			<a href="#"><img src="images/task_07/footer_tw.png" /></a>
+			<a href="#"><img src="images/task_07/footer_it.png" /></a>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<span>@2016新世界</span>
+	</div>	
+</div>
+<!--  footer end  -->
 </body>
 </html>

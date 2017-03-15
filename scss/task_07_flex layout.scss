@@ -324,7 +324,6 @@ input {
 		}
 		.content_top_right {
 			width:100%;
-			border:1px solid red;
 			display:flex;
 			flex-direction:column;
 			align-items:center;
@@ -388,12 +387,238 @@ input {
 		}
 	}
 	/* content_top end */
+
+	/* content_bottom start */
+	.content_bottom {
+		display:flex;
+		.content_bottom_left {
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			flex-grow:1;
+			background:#e7504d;
+			p {
+				font-size:21px;
+				font-family:"黑体";
+				color:#fff;
+				line-height:150%;
+			}
+			span {
+				display:inline-block;
+				width:30px;
+				height:2px;
+				background:#fff;
+				margin:25px 0;
+			}
+			input {
+				width:168px;
+				border:1px solid #fff;
+				text-align:center;
+				line-height:40px;
+				@extend p;
+				background:none;
+			}
+		}
+		.content_bottom_middle {
+			@extend .content_bottom_left;
+			background:#fff;
+			p {
+				color:#000;
+			}
+			span {
+				background:#000;
+			}
+			input {
+				color:#e7504d;
+				border:1px solid #e7504d;
+			}
+		}
+		.content_bottom_right {
+			width:430px;
+			position:relative;
+			strong {
+				position:absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				background:rgba(0,0,0,0.4);
+			}
+		}
+	}
+	/* content_bottom end */
 }
 /* content end */
 
+/* volunteer start */
+#volunteer {
+	height:750px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	.volunteer_top {
+		display:flex;
+		align-items:center;
+		flex-direction:column;
+		margin-top:100px;
+		h1 {
+			font-size:21px;
+			font-family:"黑体";
+			font-weight:normal;
+		}
+		span {
+			width:30px;
+			height:2px;
+			display:inline-block;
+			background:#ea6663;
+			margin:10px 0 14px;
+		}
+		p {
+			font-size:12px;
+			color:#aaa;
+			width:420px;
+			text-align:center;
+		}
+	}
+	.volunteer_bottom {
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+		.left {
+			width:300px;
+			margin:0 70px 0 130px;
+			@mixin font {
+				font-size:12px;
+				font-family:"宋体";
+				color:#231815;
+				opacity:0.6;
+			}
+			h2 {
+				font-size:14px;
+				font-family:"黑体";
+				color:#231815;
+				opacity:0.8;
+			}
+			p {
+				@include font;
+				margin-top:26px;
+				line-height:150%;
+			}
+			span {
+				@include font;
+				text-align:right;
+				display:block;
+				margin-bottom:40px;
+			}
+		}
+		.right {
+			form {
+				input[type="text"] {
+					width:310px;
+					height:40px;
+					background:#ededee;
+					color:#231815;
+					font-size:12px;
+					font-family:"宋体";
+					box-sizing:border-box;
+					padding-left:16px;
+					float:left;
+					margin-right:20px;
+				}
+				.three {
+					margin-top:16px;
+				}
+				.four {
+					@extend .three;
+				}
+				textarea {
+					width:638px;
+					height:120px;
+					background:#ededee;
+					margin-top:16px;
+					border:none;
+					font-size:12px;
+					font-family:"宋体";
+					color:#231815;
+					padding:10px 0 0 18px;
+					box-sizing:border-box;
+				}
+				input[type="button"]{
+					line-height:40px;
+					width:640px;
+					font-size:14px;
+					color:#323333;
+					font-family:"黑体";
+					margin-top:16px;
+				}
+			}
+		}
+	}
+}
+/* volunteer end */
 
+/* footer start */
+#footer {
+	.concat {
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+		height:360px;
+		background:#32363e;
+		color:#fff;
+		h1 {
+			font-size:21px;
+			font-weight:normal;
+			font-family:"黑体";
+		}
+		p {
+			font-family:"宋体";
+			font-size:12px;
+			width:470px;
+			text-align:center;
+			margin-top:12px;
+			margin-bottom:32px;
+			line-height:1.5;
+		}
+		form {
+			input[type="text"]{
+				width:430px;
+				height:40px;
+				font-size:14px;
+				padding-left:10px;
+				margin-bottom:34px;
+			}
+			input[type="submit"]{
+				width:80px;
+				line-height:40px;
+				font-size:15px;
+				letter-spacing:10px;
+				background:#6f7178;
+				float:right;
+				text-align:center;
+				color:#fff;
+			}
+		}
+		div {
+			display:flex;
+			flex-direction:row;
+			img {
+				margin-right:28px;
+			}
+		}
+	}
+	.footer_bottom {
+		line-height:56px;
+		font-size:12px;
+		font-family:"宋体";
+		background:#2f2f38;
+		color:#fff;
+		padding-left:100px;
+		position:relative;
+	}
+}
+		
 
-
-
-/* new_world start*/
-
+/* footer end */
