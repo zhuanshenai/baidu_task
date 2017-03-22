@@ -25,8 +25,8 @@ input {
 /* logo start */
 #nav {
   display: flex;
-  height: 57px;
   align-items: center;
+  height: 57px;
   justify-content: space-between;
   /* logo end */
   /* 导航 start */
@@ -48,8 +48,8 @@ input {
     #nav .nav a {
       font-size: 14px;
       margin-right: 28px;
-      display: flex;
       height: 55px;
+      display: flex;
       align-items: center; }
       #nav .nav a:hover {
         box-sizing: content-box;
@@ -95,12 +95,11 @@ input {
       left: 124px;
       width: 500px; }
     #banner .banner_img p, #banner .banner_img #content .content_bottom .content_bottom_left input, #content .content_bottom .content_bottom_left #banner .banner_img input, #banner .banner_img #content .content_bottom .content_bottom_middle input, #content .content_bottom .content_bottom_middle #banner .banner_img input {
-      font-size: 21px;
       width: 300px;
       position: absolute;
       top: 310px;
       left: 124px;
-      line-height: 150%; }
+      font: 21px/150% "微软雅黑"; }
     #banner .banner_img input {
       width: 331px;
       background: #e7504d;
@@ -116,8 +115,8 @@ input {
     display: flex; }
     #banner .banner_icon div {
       width: 25%;
-      display: flex;
       flex-direction: column;
+      display: flex;
       align-items: center;
       box-sizing: border-box;
       border-right: 1px solid #aaa; }
@@ -148,8 +147,8 @@ input {
     height: 360px;
     background: #ededed;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center; }
     #new_world .about h1 {
       font: normal 54px "黑体";
@@ -173,8 +172,8 @@ input {
       top: 50px;
       color: #000;
       display: flex;
-      flex-direction: column;
       align-items: center;
+      flex-direction: column;
       color: #fff;
       justify-content: space-between; }
       #new_world .map .map_top h1 {
@@ -205,8 +204,8 @@ input {
     height: 600px;
     background: #f8f8f8;
     padding: 0 145px;
-    display: flex;
     justify-content: space-between;
+    display: flex;
     align-items: center; }
     #new_world .activity .box {
       margin-bottom: 10px; }
@@ -214,7 +213,7 @@ input {
         border: 10px solid #fff; }
       #new_world .activity .box div {
         border: 1px solid #cecece; }
-      #new_world .activity .box h2 {
+      #new_world .activity .box h2, #new_world .activity .box p, #new_world .activity .box #content .content_bottom .content_bottom_left input, #content .content_bottom .content_bottom_left #new_world .activity .box input, #new_world .activity .box #content .content_bottom .content_bottom_middle input, #content .content_bottom .content_bottom_middle #new_world .activity .box input {
         font-weight: normal;
         font-size: 14px;
         font-family: "黑体";
@@ -222,11 +221,8 @@ input {
         margin-top: 12px; }
       #new_world .activity .box p, #new_world .activity .box #content .content_bottom .content_bottom_left input, #content .content_bottom .content_bottom_left #new_world .activity .box input, #new_world .activity .box #content .content_bottom .content_bottom_middle input, #content .content_bottom .content_bottom_middle #new_world .activity .box input {
         color: #898a8a;
-        font-size: 12px;
-        font-family: "黑体";
-        text-align: center;
-        margin-top: 12px; }
-    #new_world .activity .activity_shanghai h2 {
+        font-size: 12px; }
+    #new_world .activity .activity_shanghai h2, #new_world .activity .activity_shanghai .box p, #new_world .activity .box .activity_shanghai p, #new_world .activity .activity_shanghai .box #content .content_bottom .content_bottom_left input, #new_world .activity .box #content .content_bottom .content_bottom_left .activity_shanghai input, #content .content_bottom .content_bottom_left #new_world .activity .activity_shanghai .box input, #content .content_bottom .content_bottom_left #new_world .activity .box .activity_shanghai input, #new_world .activity .activity_shanghai .box #content .content_bottom .content_bottom_middle input, #new_world .activity .box #content .content_bottom .content_bottom_middle .activity_shanghai input, #content .content_bottom .content_bottom_middle #new_world .activity .activity_shanghai .box input, #content .content_bottom .content_bottom_middle #new_world .activity .box .activity_shanghai input {
       margin-top: 0;
       letter-spacing: 30px;
       text-align: right;
@@ -242,9 +238,7 @@ input {
   /* content_bottom start */
   /* content_bottom end */ }
   #content .content_top {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row; }
+    display: flex; }
     #content .content_top .content_top_left {
       position: relative;
       color: #fff; }
@@ -261,7 +255,7 @@ input {
         #content .content_top .content_top_left div h1 {
           font-weight: normal;
           font-size: 50px; }
-        #content .content_top .content_top_left div h2 {
+        #content .content_top .content_top_left div h2, #content .content_top .content_top_left div #new_world .activity .box p, #new_world .activity .box #content .content_top .content_top_left div p, #new_world .activity .box #content .content_top .content_top_left div .content_bottom .content_bottom_left input, #new_world .activity .box #content .content_bottom .content_bottom_left .content_top .content_top_left div input, #content .content_top .content_top_left div .content_bottom .content_bottom_left #new_world .activity .box input, #content .content_bottom .content_bottom_left #new_world .activity .box .content_top .content_top_left div input, #new_world .activity .box #content .content_top .content_top_left div .content_bottom .content_bottom_middle input, #new_world .activity .box #content .content_bottom .content_bottom_middle .content_top .content_top_left div input, #content .content_top .content_top_left div .content_bottom .content_bottom_middle #new_world .activity .box input, #content .content_bottom .content_bottom_middle #new_world .activity .box .content_top .content_top_left div input {
           font-weight: normal;
           font-size: 158px; }
         #content .content_top .content_top_left div p, #content .content_top .content_top_left div .content_bottom .content_bottom_left input, #content .content_bottom .content_bottom_left .content_top .content_top_left div input, #content .content_top .content_top_left div .content_bottom .content_bottom_middle input, #content .content_bottom .content_bottom_middle .content_top .content_top_left div input {
@@ -270,8 +264,8 @@ input {
     #content .content_top .content_top_right {
       width: 100%;
       display: flex;
-      flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      flex-direction: column; }
       #content .content_top .content_top_right h1 {
         font-size: 20px;
         font-weight: normal;
@@ -283,13 +277,10 @@ input {
           color: #e74f4d;
           padding-left: 8px; }
       #content .content_top .content_top_right p, #content .content_top .content_top_right .content_bottom .content_bottom_left input, #content .content_bottom .content_bottom_left .content_top .content_top_right input, #content .content_top .content_top_right .content_bottom .content_bottom_middle input, #content .content_bottom .content_bottom_middle .content_top .content_top_right input {
-        font-size: 12px;
-        font-family: "宋体";
+        font: 12px/200% "宋体";
         color: #aaa;
-        line-height: 200%;
         margin-top: 30px;
-        width: 300px;
-        border: 1px slid red; }
+        width: 300px; }
       #content .content_top .content_top_right input {
         font-size: 12px;
         color: #e25c60;
@@ -310,8 +301,7 @@ input {
           border-radius: 50%;
           box-sizing: border-box;
           border: 1px solid #929292;
-          margin-top: 24px;
-          margin-right: 14px;
+          margin: 24px 14px 0 0;
           float: left; }
           #content .content_top .content_top_right ul li:hover {
             background: #929292; }
@@ -323,16 +313,14 @@ input {
     display: flex; }
     #content .content_bottom .content_bottom_left, #content .content_bottom .content_bottom_middle {
       display: flex;
+      align-items: center;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
       flex-grow: 1;
       background: #e7504d; }
       #content .content_bottom .content_bottom_left p, #content .content_bottom .content_bottom_middle p, #content .content_bottom .content_bottom_left input, #content .content_bottom .content_bottom_middle input {
-        font-size: 21px;
-        font-family: "黑体";
         color: #fff;
-        line-height: 150%; }
+        font: 21px/150% "黑体"; }
       #content .content_bottom .content_bottom_left span, #content .content_bottom .content_bottom_middle span {
         display: inline-block;
         width: 30px;
@@ -378,9 +366,7 @@ input {
     flex-direction: column;
     margin-top: 100px; }
     #volunteer .volunteer_top h1 {
-      font-size: 21px;
-      font-family: "黑体";
-      font-weight: normal; }
+      font: normal 21px "黑体"; }
     #volunteer .volunteer_top span {
       width: 30px;
       height: 2px;
@@ -399,9 +385,8 @@ input {
     #volunteer .volunteer_bottom .left {
       width: 300px;
       margin: 0 70px 0 130px; }
-      #volunteer .volunteer_bottom .left h2 {
-        font-size: 14px;
-        font-family: "黑体";
+      #volunteer .volunteer_bottom .left h2, #volunteer .volunteer_bottom .left #new_world .activity .box p, #new_world .activity .box #volunteer .volunteer_bottom .left p, #volunteer .volunteer_bottom .left #new_world .activity .box #content .content_bottom .content_bottom_left input, #new_world .activity .box #content .content_bottom .content_bottom_left #volunteer .volunteer_bottom .left input, #volunteer .volunteer_bottom .left #content .content_bottom .content_bottom_left #new_world .activity .box input, #content .content_bottom .content_bottom_left #new_world .activity .box #volunteer .volunteer_bottom .left input, #volunteer .volunteer_bottom .left #new_world .activity .box #content .content_bottom .content_bottom_middle input, #new_world .activity .box #content .content_bottom .content_bottom_middle #volunteer .volunteer_bottom .left input, #volunteer .volunteer_bottom .left #content .content_bottom .content_bottom_middle #new_world .activity .box input, #content .content_bottom .content_bottom_middle #new_world .activity .box #volunteer .volunteer_bottom .left input {
+        font: bold 14px "黑体";
         color: #231815;
         opacity: 0.8; }
       #volunteer .volunteer_bottom .left p, #volunteer .volunteer_bottom .left #content .content_bottom .content_bottom_left input, #content .content_bottom .content_bottom_left #volunteer .volunteer_bottom .left input, #volunteer .volunteer_bottom .left #content .content_bottom .content_bottom_middle input, #content .content_bottom .content_bottom_middle #volunteer .volunteer_bottom .left input {
@@ -424,8 +409,7 @@ input {
       height: 40px;
       background: #ededee;
       color: #231815;
-      font-size: 12px;
-      font-family: "宋体";
+      font: normal 12px "宋体";
       box-sizing: border-box;
       padding-left: 16px;
       float: left;
@@ -444,35 +428,28 @@ input {
       padding: 10px 0 0 18px;
       box-sizing: border-box; }
     #volunteer .volunteer_bottom .right form input[type="button"] {
-      line-height: 40px;
       width: 640px;
-      font-size: 14px;
       color: #323333;
-      font-family: "黑体";
-      margin-top: 16px; }
+      margin-top: 16px;
+      font: 14px/40px "黑体"; }
 
 /* volunteer end */
 /* footer start */
 #footer .concat {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   height: 360px;
   background: #32363e;
   color: #fff; }
   #footer .concat h1 {
-    font-size: 21px;
-    font-weight: normal;
-    font-family: "黑体"; }
+    font: normal 21px "黑体"; }
   #footer .concat p, #footer .concat #content .content_bottom .content_bottom_left input, #content .content_bottom .content_bottom_left #footer .concat input, #footer .concat #content .content_bottom .content_bottom_middle input, #content .content_bottom .content_bottom_middle #footer .concat input {
-    font-family: "宋体";
-    font-size: 12px;
+    font: 12px/1.5 "宋体";
     width: 470px;
     text-align: center;
-    margin-top: 12px;
-    margin-bottom: 32px;
-    line-height: 1.5; }
+    margin: 12px 0 32px; }
   #footer .concat form input[type="text"] {
     width: 430px;
     height: 40px;
@@ -494,13 +471,10 @@ input {
     #footer .concat div img {
       margin-right: 28px; }
 #footer .footer_bottom {
-  line-height: 56px;
-  font-size: 12px;
-  font-family: "宋体";
+  font: 12px/56px "宋体";
   background: #2f2f38;
   color: #fff;
-  padding-left: 100px;
-  position: relative; }
+  padding-left: 100px; }
 
 /* footer end */
 

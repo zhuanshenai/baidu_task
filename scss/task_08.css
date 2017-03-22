@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-size: 0; }
+
+#container div {
+  height: 50px;
+  outline: 1px solid #999;
+  background: #eee;
+  display: inline-block; }
+#container .four {
+  margin: 10px 10px 10px 20px;
+  width: calc(100%/3 - 30px); }
+#container .four2 {
+  margin: 10px 10px 10px 10px;
+  width: calc(100%/3 - 20px); }
+#container .four3 {
+  margin: 10px 20px 10px 10px;
+  width: calc(100%/3 - 30px); }
+#container .three {
+  margin: 10px 10px 10px 20px;
+  width: calc(50%/2 - 30px); }
+#container .six {
+  margin: 10px 10px 10px 10px;
+  width: calc(50% - 20px); }
+#container .three2 {
+  margin: 10px 20px 10px 10px;
+  width: calc(50%/2 - 30px); }
+#container .one {
+  margin: 10px 10px 10px 20px;
+  width: calc(100%/12 - 30px); }
+#container .one2 {
+  margin: 10px 20px 10px 10px;
+  width: calc(100%/12 - 30px); }
+#container .two {
+  margin: 10px 20px 10px 10px;
+  width: calc(100%/6 - 30px); }
+#container .two2 {
+  margin: 10px 20px 10px 10px;
+  width: calc(100%/6 - 30px); }
+#container .six2 {
+  margin: 10px 20px 10px 10px;
+  width: calc(100%/2 - 30px); }
+
+@media (max-width: 768px) {
+  #container .four {
+    margin: 10px 10px 10px 20px;
+    width: calc(100%/2 - 30px); }
+  #container .four2 {
+    margin: 10px 20px 10px 10px;
+    width: calc(100%/2 - 30px); }
+  #container .four3 {
+    margin: 10px 20px 10px 20px;
+    width: calc(100% - 40px); }
+  #container .three {
+    margin: 10px 10px 10px 20px;
+    width: calc(50%/2 - 30px); }
+  #container .six {
+    margin: 10px 10px 10px 10px;
+    width: calc(50% - 20px); }
+  #container .three2 {
+    margin: 10px 20px 10px 10px;
+    width: calc(50%/2 - 30px); }
+  #container .one {
+    margin: 10px 10px 10px 20px;
+    width: calc(100%/6 - 30px); }
+  #container .one2 {
+    margin: 10px 20px 10px 10px;
+    width: calc(100%/6 - 30px); }
+  #container .two {
+    margin: 10px 20px 10px 10px;
+    width: calc(200%/3 - 30px); }
+  #container .two2 {
+    margin: 10px 10px 10px 20px;
+    width: calc(50%/2 - 30px); }
+  #container .six2 {
+    margin: 10px 20px 10px 10px;
+    width: calc(50%/2 - 30px); } }
+
+/*# sourceMappingURL=task_08.css.map */

@@ -25,19 +25,24 @@ input {
 
  /* nav start */
 	/* logo start */
-#nav {
+@mixin flex {
 	display:flex;
-	height:57px;
 	align-items:center;
+}
+@mixin font {
+	font:normal 21px "黑体";
+}
+#nav {
+	@include flex;
+	height:57px;
 	justify-content:space-between;	
 	.logo {
-		display:flex;
-		align-items:center;
+		@include flex;
 		margin-left:54px;
 		flex-shrink:0;
 		h1 {
 			float:right;
-			font:normal 21px "黑体";
+			@include font;
 			margin-left:6px;
 		}
 	}
@@ -53,9 +58,8 @@ input {
 		a {
 			font-size:14px;
 			margin-right:28px;
-			display:flex;
 			height:55px;
-			align-items:center;
+			@include flex;
 			&:hover {
 				box-sizing:content-box;
 				color:#e74f4d;
@@ -108,12 +112,11 @@ input {
 			width:500px;
 		}
 		p {
-			font-size:21px;
 			width:300px;
 			position:absolute;
 			top:310px;
 			left:124px;
-			line-height:150%;
+			font:21px/150% "微软雅黑";
 		}
 		input {
 			width:331px;
@@ -135,9 +138,8 @@ input {
 		display:flex;
 		div {
 			width:25%;
-			display:flex;
 			flex-direction:column;
-			align-items:center;
+			@include flex;
 			box-sizing:border-box;
 			border-right:1px solid #aaa;
 			img {
@@ -168,9 +170,8 @@ input {
 	.about {
 		height:360px;
 		background:#ededed;
-		display:flex;
+		@include flex;
 		flex-direction:column;
-		align-items:center;
 		justify-content:center;
 		h1 {
 			font:normal 54px "黑体";
@@ -200,9 +201,8 @@ input {
 			position:absolute;
 			top:50px;
 			color:#000;
-			display:flex;
+			@include flex;
 			flex-direction:column;
-			align-items:center;
 			color:#fff;
 			justify-content:space-between;
 			h1 {
@@ -246,9 +246,8 @@ input {
 		height:600px;
 		background:#f8f8f8;
 		padding:0 145px;
-		display:flex;
 		justify-content:space-between;
-		align-items:center;
+		@include flex;
 		.box {
 			margin-bottom:10px;
 			img {
@@ -265,11 +264,9 @@ input {
 				margin-top:12px;
 			}
 			p {
+				@extend h2;
 				color:#898a8a;
 				font-size:12px;
-				font-family:"黑体";
-				text-align:center;
-				margin-top:12px;
 			}
 		}
 		.activity_shanghai {
@@ -293,8 +290,6 @@ input {
 	/* content_top start */
 	.content_top {
 		display:flex;
-		flex-wrap:nowrap;
-		flex-direction:row;
 		.content_top_left {
 			position:relative;
 			color:#fff;
@@ -324,9 +319,8 @@ input {
 		}
 		.content_top_right {
 			width:100%;
-			display:flex;
+			@include flex;
 			flex-direction:column;
-			align-items:center;
 			h1 {
 				font-size:20px;
 				font-weight:normal;
@@ -341,13 +335,10 @@ input {
 				}
 			}
 			p {
-				font-size:12px;
-				font-family:"宋体";
+				font:12px/200% "宋体";
 				color:#aaa;
-				line-height:200%;
 				margin-top:30px;
 				width:300px;
-				border:1px slid red;
 			}
 			input {
 				font-size:12px;
@@ -370,8 +361,7 @@ input {
 					border-radius:50%;
 					box-sizing:border-box;
 					border:1px solid #929292;
-					margin-top:24px;
-					margin-right:14px;
+					margin:24px 14px 0 0;
 					float:left;
 					&:hover {
 						background:#929292;
@@ -392,17 +382,14 @@ input {
 	.content_bottom {
 		display:flex;
 		.content_bottom_left {
-			display:flex;
+			@include flex;
 			flex-direction:column;
 			justify-content:center;
-			align-items:center;
 			flex-grow:1;
 			background:#e7504d;
 			p {
-				font-size:21px;
-				font-family:"黑体";
 				color:#fff;
-				line-height:150%;
+				font:21px/150% "黑体";
 			}
 			span {
 				display:inline-block;
@@ -458,14 +445,11 @@ input {
 	flex-direction:column;
 	justify-content:space-around;
 	.volunteer_top {
-		display:flex;
-		align-items:center;
+		@include flex;
 		flex-direction:column;
 		margin-top:100px;
 		h1 {
-			font-size:21px;
-			font-family:"黑体";
-			font-weight:normal;
+			font:normal 21px "黑体";
 		}
 		span {
 			width:30px;
@@ -495,8 +479,7 @@ input {
 				opacity:0.6;
 			}
 			h2 {
-				font-size:14px;
-				font-family:"黑体";
+				font:bold 14px "黑体";
 				color:#231815;
 				opacity:0.8;
 			}
@@ -519,18 +502,14 @@ input {
 					height:40px;
 					background:#ededee;
 					color:#231815;
-					font-size:12px;
-					font-family:"宋体";
+					font:normal 12px "宋体";
 					box-sizing:border-box;
 					padding-left:16px;
 					float:left;
 					margin-right:20px;
 				}
-				.three {
+				.three,.four {
 					margin-top:16px;
-				}
-				.four {
-					@extend .three;
 				}
 				textarea {
 					width:638px;
@@ -545,12 +524,10 @@ input {
 					box-sizing:border-box;
 				}
 				input[type="button"]{
-					line-height:40px;
 					width:640px;
-					font-size:14px;
 					color:#323333;
-					font-family:"黑体";
 					margin-top:16px;
+					font:14px/40px "黑体";
 				}
 			}
 		}
@@ -561,26 +538,20 @@ input {
 /* footer start */
 #footer {
 	.concat {
-		display:flex;
+		@include flex;
 		flex-direction:column;
-		align-items:center;
 		justify-content:center;
 		height:360px;
 		background:#32363e;
 		color:#fff;
 		h1 {
-			font-size:21px;
-			font-weight:normal;
-			font-family:"黑体";
+			font:normal 21px "黑体";
 		}
 		p {
-			font-family:"宋体";
-			font-size:12px;
+			font:12px/1.5 "宋体";
 			width:470px;
 			text-align:center;
-			margin-top:12px;
-			margin-bottom:32px;
-			line-height:1.5;
+			margin:12px 0 32px;
 		}
 		form {
 			input[type="text"]{
@@ -610,13 +581,10 @@ input {
 		}
 	}
 	.footer_bottom {
-		line-height:56px;
-		font-size:12px;
-		font-family:"宋体";
+		font:12px/56px "宋体";
 		background:#2f2f38;
 		color:#fff;
 		padding-left:100px;
-		position:relative;
 	}
 }
 		

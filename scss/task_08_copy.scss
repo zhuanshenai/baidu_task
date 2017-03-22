@@ -1,0 +1,42 @@
+@charset "utf-8";
+@media (max-width:768px) {
+	#container {
+		@mixin style($margin,$width){
+			margin:$margin;
+			width:$width;
+		}
+		.four {
+			@include style(10px 10px 10px 20px,calc(100%/2 - 30px));
+		}
+		.four2 {
+			@include style(10px 20px 10px 10px,calc(100%/2 - 30px));
+		}
+		.four3 {
+			@include style(10px 20px 10px 20px,calc(100% - 40px));
+		}
+		.three {
+			@include style(10px 10px 10px 20px,calc(50%/2 - 30px));
+		}
+		.six {
+			@include style(10px 10px 10px 10px,calc(50% - 20px));
+		}
+		.three2 {
+			@include style(10px 20px 10px 10px,calc(50%/2 - 30px));
+		}
+		.one {
+			@include style(10px 10px 10px 20px,calc(100%/6 - 30px));
+		}
+		.one2 {
+			@include style(10px 20px 10px 10px,calc(100%/6 - 30px));
+		}
+		.two {
+			@include style(10px 20px 10px 10px,calc(200%/3 - 30px));
+		}
+		.two2 {
+			@include style(10px 10px 10px 20px,calc(50%/2 - 30px));
+		}
+		.six2 {
+			@include style(10px 20px 10px 10px,calc(50%/2 - 30px));
+		}
+	}
+}
