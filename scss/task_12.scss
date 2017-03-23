@@ -1,0 +1,117 @@
+@charset "utf-8";
+ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+@mixin border {
+	border:1px solid #fff;
+}
+table {
+	@include border;
+	border-collapse:collapse;
+	thead {
+		th {
+			@include border;
+			color:#fff;
+			background:#000;
+			text-align:left;
+		}
+	}
+	tr {
+		@include border;
+	}
+	td {
+		@include border;
+	}
+	tbody {
+		tr:nth-child(2n){
+			background:#00f;
+			color:#fff;
+		}
+		tr:nth-child(1),tr:nth-child(2),tr:nth-child(3) {
+			color:#f00;
+		}
+	}
+}
+@keyframes animate {
+	from {
+		transform:scaleX(1);
+	}
+	to {
+		transform:scaleX(2);
+	}
+}
+input {
+	margin-left:230px;
+	&:focus {
+		animation-name:animate;
+		animation-duration:2s;
+		animation-fill-mode:forwards;
+	}
+}
+@keyframes animate1 {
+	from {
+		transform:translateX(0)
+	}
+	to {
+		transform:translateX(-200px)
+	}
+}
+#nav {
+	width:200px;
+	height:150px;
+	overflow:hidden;
+	position:relative;
+	border:1px solid #000;
+	#container {
+		width:600px;
+		height:150px;
+		#img {
+			li {
+				position:absolute;
+				top:0;
+				left:0;
+				width:200px;
+				height:150px;
+				float:left;
+				&:first-child {
+					z-index:2;
+					background:#0f0;
+					animation:animate1 3s;
+					animation-fill-mode:forwards;
+				}
+				&:nth-child(2) {
+					z-index:1;
+					background:#f00;
+					animation:animate1 3s;
+					animation-delay:3s;
+					animation-fill-mode:forwards;
+				}
+				&:last-child {
+					z-index:0;
+					background:#00f;
+					animation:animate1 3s;
+					animation-delay:6s;
+					animation-fill-mode:forwards;
+				}
+			}
+		}
+		#icon {
+			z-index:5;
+			position:absolute;
+			right:0;
+			bottom:0;
+			li {
+				float:left;
+				width:26px;
+				background:rgba(255,255,255,0.6);
+				color:#fff;
+				text-align:center;
+				line-height:26px;
+				margin-right:1px;
+			}
+		}
+	}
+}
+
