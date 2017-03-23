@@ -45,9 +45,12 @@ table {
 input {
 	margin-left:230px;
 	&:focus {
+		outline:none;
+		border:none;
 		animation-name:animate;
 		animation-duration:2s;
 		animation-fill-mode:forwards;
+		box-shadow:0 0 2px 1px #00f;
 	}
 }
 @keyframes animate1 {
